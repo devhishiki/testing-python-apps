@@ -12,7 +12,7 @@ from db import db
 
 
 class BaseTest(TestCase):
-    SQLALCHEMY_DATABASE_URI = "sqlite://"
+    SQLALCHEMY_DATABASE_URI = "sqlite:///data_test.db"
 
     @classmethod
     def setUpClass(cls):

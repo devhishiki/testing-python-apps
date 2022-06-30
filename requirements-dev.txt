@@ -1,0 +1,9 @@
+-r requirements.txt
+flake8
+mypy
+black
+pytest
+pytest-cov
+pytest-mock
+sphinx
+sphinxcontrib-napoleon
